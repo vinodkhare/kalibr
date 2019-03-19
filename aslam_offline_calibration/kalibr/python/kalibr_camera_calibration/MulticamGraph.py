@@ -9,7 +9,8 @@ import igraph
 import itertools
 import sys
 import pylab as pl
-import Image
+# import Image: fix this line to work on Ubuntu 18.04 with ROS Melodic
+from PIL import Image
 import time
 
 # make numpy print prettier
